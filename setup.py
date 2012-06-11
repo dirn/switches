@@ -25,6 +25,8 @@ settings.update(
     author_email='dirn@dirnonline.com',
     url='https://github.com/dirn/switches',
     py_modules=['switches'],
+    package_data={'': ['LICENSE']},
+    include_package_data=True,
     license=open('LICENSE').read(),
     classifiers=(
         'Development Status :: 5 - Production/Stable',
