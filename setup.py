@@ -18,7 +18,7 @@ if sys.argv[-1] == 'publish':
 
 settings.update(
     name='switches',
-    version='0.1.0',
+    version='0.2.0',
     description='Friendly Command Line Scripts',
     long_description=open('README.rst').read(),
     author='Andy Dirnberger',
