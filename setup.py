@@ -28,7 +28,7 @@ settings.update(
     package_data={'': ['LICENSE']},
     include_package_data=True,
     license=open('LICENSE').read(),
-    classifiers=(
+    classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
@@ -38,7 +38,7 @@ settings.update(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
-    ),
+    ],
 )
 
 setup(**settings)
